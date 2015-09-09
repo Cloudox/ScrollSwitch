@@ -14,6 +14,7 @@
 		ADAACEAD1B9DAB1400335120 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAACEAC1B9DAB1400335120 /* Images.xcassets */; };
 		ADAACEB01B9DAB1400335120 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAACEAE1B9DAB1400335120 /* LaunchScreen.xib */; };
 		ADAACEBC1B9DAB1400335120 /* ScrollSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAACEBB1B9DAB1400335120 /* ScrollSwitchTests.m */; };
+		ADAACEC71B9DB6C500335120 /* InfoCustomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAACEC61B9DB6C500335120 /* InfoCustomHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		ADAACEB51B9DAB1400335120 /* ScrollSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAACEBA1B9DAB1400335120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADAACEBB1B9DAB1400335120 /* ScrollSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollSwitchTests.m; sourceTree = "<group>"; };
+		ADAACEC51B9DB6C500335120 /* InfoCustomHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoCustomHeaderView.h; sourceTree = "<group>"; };
+		ADAACEC61B9DB6C500335120 /* InfoCustomHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoCustomHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				ADAACEA41B9DAB1400335120 /* AppDelegate.m */,
 				ADAACEA61B9DAB1400335120 /* ViewController.h */,
 				ADAACEA71B9DAB1400335120 /* ViewController.m */,
+				ADAACEC51B9DB6C500335120 /* InfoCustomHeaderView.h */,
+				ADAACEC61B9DB6C500335120 /* InfoCustomHeaderView.m */,
 				ADAACEA91B9DAB1400335120 /* Main.storyboard */,
 				ADAACEAC1B9DAB1400335120 /* Images.xcassets */,
 				ADAACEAE1B9DAB1400335120 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADAACEC71B9DB6C500335120 /* InfoCustomHeaderView.m in Sources */,
 				ADAACEA81B9DAB1400335120 /* ViewController.m in Sources */,
 				ADAACEA51B9DAB1400335120 /* AppDelegate.m in Sources */,
 				ADAACEA21B9DAB1400335120 /* main.m in Sources */,
